@@ -193,6 +193,21 @@ h3{
 	line-height: 45px;
 }
 
+/* POPIN */
+#backdrop{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: #3e3e3e73;
+	z-index: 99;
+}
+#modal{
+	text-align: center;
+	margin-top: 5vh;
+}
+
 
 
 
