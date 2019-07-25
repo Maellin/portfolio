@@ -198,16 +198,19 @@ h3{
 	position: fixed;
 	top: 0;
 	left: 0;
+	right: 0;
+	bottom: 0;
 	width: 100vw;
 	height: 100vh;
 	background: #3e3e3e73;
 	z-index: 99;
+	overflow: auto;
 }
-#modal{
-	text-align: center;
-	margin-top: 5vh;
+#img-modal{
+	max-width: 80vw;
+	height: auto;
+	margin-top: auto;
 }
-
 
 
 

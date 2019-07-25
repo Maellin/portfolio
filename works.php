@@ -10,7 +10,7 @@
 
 	</head>
 
-	<body>
+	<body id="body">
 		<?php 
 			include'header.php'
 		?>
@@ -45,7 +45,7 @@
 			</card>
 		
 			<card class="card d-flex">
-				<div class="card-image d-flex" onclick="show('./img/flat-design-birthday-cake.png')">
+				<div class="card-image d-flex" onclick="show('./img/daily-ui-1.jpg')">
 					<img src="./img/daily-ui-1-442x249.jpg" alt="Interface utilisateur d'une page d'inscription"/>
 					<p>Daily UI</p>					
 				</div>
@@ -56,7 +56,7 @@
 			</card>
 
 			<card class="card d-flex">
-				<div class="card-image d-flex" onclick="show('./img/flat-design-birthday-cake.png')">
+				<div class="card-image d-flex" onclick="show('./img/maquette-newsletter.jpg')">
 					<img src="./img/maquette-newsletter-350x260.jpg" alt="newsletter Nature et Découverte"/>
 					<p>Nature & Découverte</p>					
 				</div>
@@ -67,7 +67,7 @@
 			</card>
 
 			<card class="card d-flex">
-				<div class="card-image d-flex" onclick="show('./img/flat-design-birthday-cake.png')">
+				<div class="card-image d-flex" onclick="show('./img/banniere-linkedin.jpg')">
 					<img src="./img/banniere-linkedin-350x249.jpg" alt="illustration en flat design"/>
 					<p>Flat Design</p>					
 				</div>
@@ -78,7 +78,7 @@
 			</card>
 
 			<card class="card d-flex">
-				<div class="card-image d-flex" onclick="show('./img/flat-design-birthday-cake.png')">
+				<div class="card-image d-flex" onclick="show('./img/landing-page.jpg')">
 					<img src="./img/landing-page-350x264.jpg" alt="landing page de la marque Uniqlo"/>
 					<p>Uniqlo</p>					
 				</div>
@@ -89,10 +89,8 @@
 			</card>
 		</div>
 
-		<div id="backdrop" style='display:none' onclick='hide()'>
-			<div id="modal">
-				<img id="img-modal" src="" alt=""/>
-			</div>
+		<div id="backdrop" class="d-flex j-center a-center" style='display:none' onclick='hide()'>	
+			<img id="img-modal" src="" alt=""/>
 		</div>
 
 		<?php
