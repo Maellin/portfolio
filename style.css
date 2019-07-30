@@ -6,6 +6,13 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('./fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('./fonts/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* GENERAL */
 *{
@@ -14,7 +21,7 @@
 	word-wrap: break-word;
 }
 body{
-	font-family: 'ralewayregular', arial;
+	font-family: 'source_sans_proregular', arial;
 	font-size: 16px;
 	color: #383a3f;
 }
@@ -31,27 +38,6 @@ h3{
 }
 .bold{
 	font-weight: bold;
-}
-.button{
-	padding: 15px 25px;
-	margin: 25px 0;
-	background-color: #383a3f;
-	border: 2px solid #383a3f;
-	border-radius: 45px;
-	font-family: 'ralewayregular', arial;
-	font-size: 14px;
-	color: #ffffff;
-	text-decoration: none;
-	width: 250px;
-}
-.button:hover{
-	background-color: #ffffff;
-	border: 2px solid #383a3f;
-	color: #383a3f;
-	cursor: pointer;
-}
-.button-link{
-	border-bottom: 0;
 }
 .d-flex{
 	display: flex;
@@ -100,6 +86,7 @@ header{
 }
 .menu a{
 	color: #ffffff;
+	text-transform: uppercase;
 	text-decoration: none;
 	border-bottom: 0px;
 	font-weight: bold;
@@ -115,12 +102,39 @@ footer{
 	color: #ffffff;
 }
 
-/* MAIN INDEX */
+/* MAIN */
+.button{
+	width: fit-content;
+	height:20px;
+	padding: 15px 25px;
+	margin: 25px 0;
+	background-color: #383a3f;
+	border: 2px solid #383a3f;
+	border-radius: 45px;
+	font-family: 'source_sans_proregular', arial;
+	font-size: 14px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.button:hover{
+	background-color: #ffffff;
+	color: #383a3f;
+	border: 2px solid #383a3f;
+	cursor: pointer;
+}
+.button-link{
+	border-bottom: 0;
+}
+.button-container{
+	height:50px;
+	margin: 30px 0;
+	align-items: center;
+}
 .container-home{
 	max-width: 45vw;
 	min-height: 50vh;
 	flex-direction: column;
-	margin: 75px 15%;
+	margin: 10% 15%;
 }
 .container-title{
 	max-width: 45vw;
@@ -146,10 +160,13 @@ p{
 	width: 350px;
 	min-width: 350px;
 	max-height: 500px;
-	margin: 50px 20px;
+	margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
 	box-shadow: 0px 3px 10px #B6B6B6;
 	border-radius: 10px;
 	overflow: hidden;
+	cursor: pointer;
 }
 .card-image{
 	flex-direction: column;
@@ -189,6 +206,12 @@ p{
   width: 100%;
   content: '';
 }
+.content-container{
+	flex-direction: column;
+}
+.text{
+	text-align: center;
+}
 h3{
 	line-height: 45px;
 }
@@ -209,8 +232,8 @@ h3{
 #img-modal{
 	max-width: 80vw;
 	height: auto;
-	margin-top: auto;
+	margin: auto;
 }
 
-
+/* CONTACT */
 

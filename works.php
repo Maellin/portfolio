@@ -7,6 +7,8 @@
  		<meta name="author" content="Ornella Mozzi">
   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
 
 	</head>
 
@@ -34,13 +36,13 @@
 			</card>
 			
 			<card class="card d-flex">
-				<div class="card-image d-flex" onclick="show('./img/flat-design-birthday-cake.png')">
-					<img src="./img/flat-design-birthday-cake373x249.png" alt="gâteau d'anniversaire réalisé en flat design"/>
-					<p>Birthday Cake</p>					
+				<div class="card-image d-flex" onclick="show('./img/banniere-linkedin.jpg')">
+					<img src="./img/banniere-linkedin-350x249.jpg" alt="illustration en flat design"/>
+					<p>Workplace</p>					
 				</div>
 				<div class="card-content">
 					<h3>Flat design</h3>
-					<p>Créations diverses et variées en flat design, réalisées sur Adobe Illustrator.</p>
+					<p>Illustration en flat design représentant mon espace de travail, réalisée sur Adobe Illustrator.</p>
 				</div>
 			</card>
 		
@@ -67,17 +69,6 @@
 			</card>
 
 			<card class="card d-flex">
-				<div class="card-image d-flex" onclick="show('./img/banniere-linkedin.jpg')">
-					<img src="./img/banniere-linkedin-350x249.jpg" alt="illustration en flat design"/>
-					<p>Flat Design</p>					
-				</div>
-				<div class="card-content">
-					<h3>UI / UX</h3>
-					<p>Maquettes d'interfaces utilisateur réalisées sur Adobe Photoshop.</p>
-				</div>
-			</card>
-
-			<card class="card d-flex">
 				<div class="card-image d-flex" onclick="show('./img/landing-page.jpg')">
 					<img src="./img/landing-page-350x264.jpg" alt="landing page de la marque Uniqlo"/>
 					<p>Uniqlo</p>					
@@ -91,6 +82,16 @@
 
 		<div id="backdrop" class="d-flex j-center a-center" style='display:none' onclick='hide()'>	
 			<img id="img-modal" src="" alt=""/>
+		</div>
+
+		<div class="content-container d-flex a-center">
+			<div class="text d-flex j-center">
+				<p>Mes créations vous plaisent ? <br/>
+				Contactez-moi !</p>
+			</div>
+			<div class="button-container">
+				<a class="button button-link bold" href="contact.php">Me contacter</a>
+			</div>
 		</div>
 
 		<?php
