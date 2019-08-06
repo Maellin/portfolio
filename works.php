@@ -1,30 +1,19 @@
-<!DOCTYPE html>
-<html lang="fr">
-	<head>
-		<title>Portfolio</title>
-		<meta charset="utf-8">
-		<meta name="description" content="Bienvenue sur le portfolio d'Ornella Mozzi ! Découvrez mes créations.">
- 		<meta name="author" content="Ornella Mozzi">
-  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-
-
-	</head>
-
-	<body id="body">
-		<?php 
-			include'header.php'
-		?>
+	<?php
+		include'header.php'		
+	?>
+	
+	<?php 
+		include'nav_bar.php'
+	?>
 
 		<div class="container-title d-flex j-center">
 			<div>
-				<p class="bold title--1">Mes créations</p>
+				<h2 class="bold title--1">Mes créations</h2>
 			</div>	
 		</div>
 
 		<div class="container-cards d-flex j-space-around">
-			<card class="card d-flex" onclick="show('./img/fantastic-parade.jpg')">
+			<div class="card d-flex" onclick="show('./img/fantastic-parade.jpg')">
 				<div class="card-image d-flex">
 					<img src="./img/fantastic-parade-373x249.jpg" alt="Parade d'ouverture de Lille3000 Fantastic"/>
 					<p>Lille3000 Fantastic</p>					
@@ -33,9 +22,9 @@
 					<h3>Retouche photo</h3>
 					<p>Photo prise lors de la parade d'ouverture de l'événement Lille3000, puis retouchée sur Adobe Photoshop pour mettre en valeur les personnages géants au milieu de la foule.</p>
 				</div>
-			</card>
+			</div>
 			
-			<card class="card d-flex">
+			<div class="card d-flex">
 				<div class="card-image d-flex" onclick="show('./img/banniere-linkedin.jpg')">
 					<img src="./img/banniere-linkedin-350x249.jpg" alt="illustration en flat design"/>
 					<p>Workplace</p>					
@@ -44,9 +33,9 @@
 					<h3>Flat design</h3>
 					<p>Illustration en flat design représentant mon espace de travail, réalisée sur Adobe Illustrator.</p>
 				</div>
-			</card>
+			</div>
 		
-			<card class="card d-flex">
+			<div class="card d-flex">
 				<div class="card-image d-flex" onclick="show('./img/daily-ui-1.jpg')">
 					<img src="./img/daily-ui-1-442x249.jpg" alt="Interface utilisateur d'une page d'inscription"/>
 					<p>Daily UI</p>					
@@ -55,9 +44,9 @@
 					<h3>UI / UX</h3>
 					<p>Maquette d'interface utilisateur d'une page d'inscription.</p>
 				</div>
-			</card>
+			</div>
 
-			<card class="card d-flex">
+			<div class="card d-flex">
 				<div class="card-image d-flex" onclick="show('./img/maquette-newsletter.jpg')">
 					<img src="./img/maquette-newsletter-350x260.jpg" alt="newsletter Nature et Découverte"/>
 					<p>Nature & Découverte</p>					
@@ -66,9 +55,9 @@
 					<h3>Newsletter</h3>
 					<p>Maquette de newsletter fictive pour la campagne de Noël de Nature & Découverte, réalisée sur Adobe Photoshop.</p>
 				</div>
-			</card>
+			</div>
 
-			<card class="card d-flex">
+			<div class="card d-flex">
 				<div class="card-image d-flex" onclick="show('./img/landing-page.jpg')">
 					<img src="./img/landing-page-350x264.jpg" alt="landing page de la marque Uniqlo"/>
 					<p>Uniqlo</p>					
@@ -77,16 +66,16 @@
 					<h3>Landing page</h3>
 					<p>Maquette Photoshop d'une landing page fictive pour la campagne Printemps/Été 2019.</p>
 				</div>
-			</card>
+			</div>
 		</div>
 
 		<div id="backdrop" class="d-flex j-center a-center" style='display:none' onclick='hide()'>	
 			<img id="img-modal" src="" alt=""/>
 		</div>
 
-		<div class="content-container d-flex a-center">
+		<div class="container-content d-flex a-center">
 			<div class="text d-flex j-center">
-				<p>Mes créations vous plaisent ? <br/>
+				<p class="content">Mes créations et <strong>design</strong> vous plaisent ? <br/>
 				Contactez-moi !</p>
 			</div>
 			<div class="button-container">
@@ -97,8 +86,3 @@
 		<?php
 			include'footer.php'
 		?>
-
-		<script src="script.js"></script>
-	</body>
-
-</html>
