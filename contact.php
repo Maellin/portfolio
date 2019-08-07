@@ -1,10 +1,8 @@
-	<?php
-		include'header.php'		
-	?>
-	
-	<?php 
-		include'nav_bar.php'
-	?>
+		<?php
+			$page = 'contact';
+			include'header.php';
+			include'nav_bar.php';
+		?>
 
 		<div class="container-intro">
 			<h3 class="bold title--1">Contact</h3>

@@ -1,9 +1,7 @@
 		<?php
-			include'header.php'
-		?>
-	
-		<?php 
-			include'nav_bar.php'
+			$page = 'index';
+			include'header.php';
+			include'nav_bar.php';
 		?>
 
 		<div class="container-intro d-flex j-center">

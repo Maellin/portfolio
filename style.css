@@ -35,8 +35,7 @@ a{
 }
 a:hover{
 	font-weight: bold;
-	border-bottom: none;
-	transition: border-bottom 1s ease-in-out;
+	border-bottom: none
 }
 h3{
 	font-size: 1.4rem;
@@ -89,6 +88,9 @@ h3{
 	font-weight: bold;
 	letter-spacing: 0.1rem;
 }
+.active{
+	border-bottom: 2px solid #e2a800 !important;
+}
 
 /* FOOTER */
 footer{
@@ -136,12 +138,6 @@ footer{
 .content{
 	font-size: 1.7rem;
 	margin: 1rem 0;
-}
-.container-title{
-	max-width: 50vw;
-	height: 20vh;
-	flex-direction: column;
-	margin: 75px 15%;
 }
 .title--1{
 	font-size: 3rem;

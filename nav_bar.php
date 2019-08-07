@@ -6,9 +6,9 @@
 		<div class="container-nav">
 			<nav class="menu">
 				<ul class="d-flex">
-					<li><a href="index.php">Bio</a></li>
-					<li><a href="works.php">Créations</a></li>
-					<li><a href="contact.php">Contact</a></li>
+					<li><a href="index.php" <?php if ($page == 'index') echo "class='active'" ?>>Bio</a></li>
+					<li><a href="works.php" <?php if ($page == 'works') echo "class='active'" ?>>Créations</a></li>
+					<li><a href="contact.php" <?php if ($page == 'contact') echo "class='active'" ?>>Contact</a></li>
 				</ul>
 			</nav>
 		</div>

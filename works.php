@@ -1,12 +1,10 @@
-	<?php
-		include'header.php'		
-	?>
-	
-	<?php 
-		include'nav_bar.php'
-	?>
+		<?php
+			$page = 'works';
+			include 'header.php';
+			include 'nav_bar.php'; 
+		?>
 
-		<div class="container-title d-flex j-center">
+		<div class="container-intro d-flex j-center">
 			<div>
 				<h2 class="bold title--1">Mes créations</h2>
 			</div>	
