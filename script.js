@@ -35,3 +35,11 @@ var hide = function() {
 	var body = document.getElementById('body')
 	body.style.overflow = 'scroll'
 } 
+
+let params = new URLSearchParams(document.location.search.substring(1));
+if (params.has('mail-sent')){
+	toastr["success"]("Votre e-mail a bien été envoyé !");
+}
+else if (params.has('mail-failed')){
+	toastr["error"]("Oups ! Une erreur est survenue. Votre e-mail n'a pas été envoyé.");
+}
