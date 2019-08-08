@@ -30,7 +30,7 @@
 			</form>
 
 				<div class="container-video">
-					<video id="video" width="590" height="auto" autoplay loop>
+					<video id="video" autoplay loop>
   						<source src="./video/coffee-video.mp4" type="video/mp4">
   					</video>
   				</div>
