@@ -7,6 +7,8 @@
  		<meta name="author" content="Ornella Mozzi">
   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+
 		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
 	</head>
