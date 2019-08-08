@@ -6,7 +6,8 @@
 			<div></div>
 		</footer>
 	</body>
-
+	
+	<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 	<script src="script.js"></script>
 
 </html>
