@@ -233,7 +233,7 @@ h3{
 }
 
 /* CONTACT */
-.container-video{
+.container-video, video{
 	max-width: 50vw;
 	max-height: 50vh;
 	overflow: hidden;
