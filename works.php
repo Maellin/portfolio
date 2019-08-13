@@ -10,10 +10,11 @@
 			</div>	
 		</div>
 
+
 		<div class="container-cards d-flex j-space-around">
 			<div class="card d-flex" onclick="show('./img/fantastic-parade.jpg')">
 				<div class="card-image d-flex">
-					<img src="./img/fantastic-parade-373x249.jpg" alt="Parade d'ouverture de Lille3000 Fantastic"/>
+					<a data-fancybox="gallery" href="./img/fantastic-parade.jpg"><img src="./img/fantastic-parade-373x249.jpg" alt="Parade d'ouverture de Lille3000 Fantastic"/></a>
 					<p>Lille3000 Fantastic</p>					
 				</div>
 				<div class="card-content">
@@ -40,7 +41,7 @@
 				</div>
 				<div class="card-content">
 					<h3>UI / UX</h3>
-					<p>Maquette d'interface utilisateur d'une page d'inscription.</p>
+					<p>Maquette d'interface utilisateur d'une page d'inscription, réalisée sur Adobe Photoshop.</p>
 				</div>
 			</div>
 
@@ -62,7 +63,7 @@
 				</div>
 				<div class="card-content">
 					<h3>Landing page</h3>
-					<p>Maquette Photoshop d'une landing page fictive pour la campagne Printemps/Été 2019.</p>
+					<p>Maquette d'une landing page fictive pour la campagne Uniqlo Printemps/Été 2019, réalisée sur Adobe Photoshop.</p>
 				</div>
 			</div>
 		</div>

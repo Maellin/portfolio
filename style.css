@@ -260,3 +260,36 @@ label{
     border-bottom: 1px solid #cdcdcd;
     margin-bottom: 10px;
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+	.title--1{
+		font-size: 2.3rem;
+	}
+	.content, p{
+		font-size: 1.3rem;
+	}
+	.button{
+		font-size: 1rem;
+	}
+	.container-form{
+		flex-direction: column-reverse;
+	}
+	#contact-form{
+		margin: 0;
+		min-width: 60vw;
+	}
+	.container-video{
+		min-width: 100vw;
+		display: flex;
+		justify-content: center;
+		margin: 25px 0;
+	}
+	#video{
+		max-width: 100vw;
+	}
+
+
+	@media only screen and (max-width: 600px) {
+
+	}
