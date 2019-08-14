@@ -6,6 +6,7 @@
 			<div></div>
 		</footer>
 	</body>
+	
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 <!-- fancybox -->

@@ -20,7 +20,11 @@
 	margin: 0;
 	word-wrap: break-word;
 }
+html, body{
+	height: 100%;
+}
 body{
+	position: relative;
 	font-family: 'source_sans_proregular', arial;
 	font-size: 1.2rem;
 	color: #383a3f;
@@ -94,6 +98,7 @@ h3{
 
 /* FOOTER */
 footer{
+	width: 100%;
 	background-color: #383a3f;
 	min-height: 20vh;
 	margin-top: 10vh;
@@ -129,11 +134,16 @@ footer{
 	margin: 30px 0;
 	align-items: center;
 }
+.container-page{
+    min-height: calc(100vh - 111px - 8vh - 30vh);
+	max-width: 1280px;
+	margin: 0 auto;
+}
 .container-intro{
 	max-width: 60vw;
 	max-height: 50vh;
 	flex-direction: column;
-	margin: 8% 15%;
+	margin: 8vh auto;
 }
 .content{
 	font-size: 1.7rem;
@@ -289,7 +299,18 @@ label{
 		max-width: 100vw;
 	}
 
-
 	@media only screen and (max-width: 600px) {
-
+		.container-intro{
+			margin: 3% auto;
+		}
 	}
+
+
+
+
+
+
+
+
+
+
