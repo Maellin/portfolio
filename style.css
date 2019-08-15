@@ -74,6 +74,10 @@ h3{
 	width : 100px;
 	height: 100px;
 }
+#logo:hover{
+	opacity: 0.7;
+    transition: opacity 0.5s ease;
+}
 .container-logo a{
 	border-bottom: 0px;
 }
@@ -83,6 +87,7 @@ h3{
 }
 .menu li:hover a{
 	border-bottom: 2px solid #e2a800;
+	transition: border-bottom 0.1s ease;
 }
 .menu a{
 	color: #e2a800;
@@ -146,12 +151,22 @@ footer{
 	margin: 8vh auto;
 }
 .content{
+	width: 45vw;
 	font-size: 1.7rem;
 	margin: 1rem 0;
 }
 .title--1{
 	font-size: 3rem;
 	line-height: 200%;
+}
+.picture{
+	position: absolute;
+    right: -15vw;
+    opacity: 0.2;
+}
+.picture img{
+	width: 40%;
+	height: auto;
 }
 p{
 	line-height: 170%;
