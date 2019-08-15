@@ -6,9 +6,9 @@
 
 		<div class="container-page">
 			<div class="container-intro">
-				<h3 class="bold title--1">Contact</h3>
+				<h2 class="bold title--1">Contact</h2>
 				<p class="content">Une question ? Une suggestion ? Une proposition ? <br/>
-				Tout se joue ci-dessous ! :)</p>
+				Tout se joue ci-dessous !</p>
 			</div>
 
 			<div class="container-form d-flex j-space-around a-center">
@@ -30,12 +30,11 @@
 					</div>
 				</form>
 
-					<div class="container-video">
-						<video id="video" autoplay loop>
-	  						<source src="./video/coffee-video.mp4" type="video/mp4">
-	  					</video>
-	  				</div>
-				</div>
+				<div class="container-video">
+					<video id="video" autoplay loop>
+	  					<source src="./video/coffee-video.mp4" type="video/mp4">
+	  				</video>
+	  			</div>
 			</div>
 		</div>	
 
