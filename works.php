@@ -38,11 +38,11 @@
 				<div class="card d-flex" onclick="show('./img/maquette-refonte-hp.jpg')">
 					<div class="card-image d-flex">
 						<img src="./img/maquette-refonte-hp-small.jpg" alt="landing page de la marque Uniqlo"/>
-						<p>Uniqlo</p>					
+						<p>jeposemonvolet</p>					
 					</div>
 					<div class="card-content">
-						<h3>Landing page</h3>
-						<p>Maquette d'une landing page fictive pour la campagne Uniqlo Printemps/Été 2019, réalisée sur Adobe Photoshop.</p>
+						<h3>UI / UX</h3>
+						<p>Projet fictif de refonte de la homepage du site jeposemonvolet.fr. Maquette réalisée sur Adobe Photoshop.</p>
 					</div>
 				</div>
 
