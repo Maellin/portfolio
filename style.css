@@ -143,6 +143,7 @@ footer{
     min-height: calc(100vh - 111px - 8vh - 30vh);
 	max-width: 1280px;
 	margin: 0 auto;
+	flex-direction: row-reverse;
 }
 .container-intro{
 	max-width: 60vw;
@@ -160,12 +161,12 @@ footer{
 	line-height: 200%;
 }
 .picture{
-	position: absolute;
-    right: -15vw;
+	margin-right: auto;
+    width: 20%;
     opacity: 0.2;
 }
 .picture img{
-	width: 40%;
+	width: 100%;
 	height: auto;
 }
 p{
@@ -180,7 +181,6 @@ p{
 .card{
 	flex-direction: column;
 	width: 350px;
-	min-width: 350px;
 	max-height: 500px;
 	margin: 35px 20px;
 	box-shadow: 0px 3px 10px #B6B6B6;
@@ -287,9 +287,23 @@ label{
 }
 
 /* RESPONSIVE */
-@media only screen and (max-width: 768px) {
+
+
+/* Medium and large devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1280px) {
 	.title--1{
 		font-size: 2.3rem;
+	}
+	.picture{
+		width: 20%;
+	}
+	.container-intro{
+		margin: 3vh 10vw;
+		max-width: 50vw;
+    	max-height: 100vh;
+	}
+	.content{
+		width: 100%;
 	}
 	.content, p{
 		font-size: 1.3rem;
@@ -298,11 +312,11 @@ label{
 		font-size: 1rem;
 	}
 	.container-form{
-		flex-direction: column-reverse;
+		flex-direction: column;
 	}
 	#contact-form{
-		margin: 0;
-		min-width: 70vw;
+	margin: 5% 0;
+	min-width: 80vw;
 	}
 	.container-video{
 		min-width: 100vw;
@@ -313,38 +327,81 @@ label{
 	#video{
 		max-width: 100vw;
 	}
+}
 
-	@media only screen and (max-width: 600px) {
-		.container-header{
-			display: block;
-			width: 100%;
-			margin: 0;
-		}
-		.container-logo{
-			text-align: center;
-		}
-		.menu > ul{
-			justify-content: space-around;
-		}
-		.container-intro{
-			margin: 3vh 8vw;
-			max-width: 100vw;
-    		max-height: 100vh;
-		}
-		.button-container{
-			text-align: center;
-		}
-		#video{
-		max-width: 90vw;
-		}
+/* Small devices (portrait tablets and large phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+	.container-page {
+    	display: block;
 	}
+	.container-intro {
+    	margin: 0vh auto;
+    	max-width: 70vw;
+    }
+    .picture{
+    	margin: 0 50%;
+    	margin-bottom: -5vh;
+    }
+    .picture img{
+    	border-radius: 50%;
+    }
+	.content{
+		width: 90%;
+		font-size: 1.5rem;
+	}
+	.title--1 {
+    font-size: 2.3rem;
+	}
+} 
 
-
-
-
-
-
-
-
-
-
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.container-header{
+		display: block;
+		width: 100%;
+		margin: 0;
+	}
+	.container-page{
+		display: block;
+	}
+	.container-logo{
+		text-align: center;
+	}
+	.menu > ul{
+		justify-content: space-around;
+	}
+	.picture{
+		display: none;
+	}
+	.container-intro{
+		margin: 5vh 10vw;
+		max-width: 100vw;
+   		max-height: 100vh;
+	}
+	.title--1{
+		font-size: 2rem;
+	}
+	.content{
+		width:100%;
+		font-size: 1.3rem;
+	}
+	.button-container{
+		text-align: center;
+	}
+	.container-cards{
+		margin: 0;
+		padding: 0;
+	}
+	.text > .content{
+		margin: 0 3%;
+	}
+	.container-form{
+		display: block;
+	}
+	#contact-form{
+		margin: 20% 0;
+	}
+	#video{
+		max-width: 90vw;
+	}
+}
