@@ -319,13 +319,13 @@ label{
 	min-width: 80vw;
 	}
 	.container-video{
-		min-width: 100vw;
+		max-width: 100vw;
 		display: flex;
 		justify-content: center;
 		margin: 25px 0;
 	}
 	#video{
-		max-width: 100vw;
+		max-width: 80vw;
 	}
 }
 
@@ -401,7 +401,10 @@ label{
 	#contact-form{
 		margin: 20% 0;
 	}
+	.container-video{
+		display: block;
+	}
 	#video{
-		max-width: 90vw;
+		max-width: 80vw;
 	}
 }
